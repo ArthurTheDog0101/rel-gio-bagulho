@@ -5,12 +5,12 @@ body{
 }
 
 :root {
-    --cor-de-fundo:rgb(245, 12, 12);
-    --verde: #6FFF57;
+    --cor-de-fundo:rgb(12, 191, 245);
+    --verde: #57a0ff;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #0793f0;
+    --botao-inativo: rgba(30, 146, 192, 0.5);
+    --texto-fundo: rgba(0, 213, 255, 0.459);
 }
 
 
