@@ -1,7 +1,7 @@
 :root{
     --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgba(76,120,198,1) 18%, #088fdd 55%);
     --cor-da-fonte: #FFFF;
-    --vermelho: #41a4e6;
+    --roxo: #41a4e6;
     --botao-ativo:#5967e7;
     --botao-inativo:#0275aa;
     }
@@ -29,7 +29,7 @@
     
     }
     .conteudo-principal span{
-        color: var(--vermelho);
+        color: var(--roxo);
         display: flex;
         flex-direction: column;
         justify-content: center;
