@@ -1,9 +1,9 @@
 :root{
     --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgb(255, 94, 0) 18%, #36363659 55%);
-    --cor-da-fonte: #FFFF;
-    --vermelho: #41a4e6;
-    --botao-ativo:#5967e7;
-    --botao-inativo:#0275aa;
+    --cor-da-fonte: #000000;
+    --vermelho: #e64141;
+    --botao-ativo:#303030;
+    --botao-inativo:#00ffd5;
     }
     
     body{
