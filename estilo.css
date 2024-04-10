@@ -1,5 +1,5 @@
 :root{
-    --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgb(255, 94, 0) 18%, #363636 55%);
+    --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgb(0, 255, 157) 18%, #363636 55%);
     --cor-da-fonte: #000000;
     --vermelho: #e64141;
     --botao-ativo:#303030;
