@@ -1,33 +1,45 @@
-:root{
-    --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgb(29, 104, 0) 18%, #000000 55%);
-    --cor-da-fonte: #000000;
-    --vermelho: #e64141;
-    --botao-ativo:#303030;
-    --botao-inativo:#00ffd5;
-    }
-    
-    body{
-        background: rgb(10, 154, 250);
-        background: var(--cor-de-fundo);
-        background-repeat: no-repeat;
-        height: 100vh;
-    
-        color: var(--cor-da-fonte);
-        font-family: "Cormorant Garamond", serif;
-        font-weight: 1000;
-        font-style: normal;
-    }
-    
-    .conteudo-principal{
-        display: flex;
-    }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
+:root {
+    --cor-de-fundo:rgb(12, 191, 245);
+    --verde: #57bcff;
+    --branco: #0095f8;
+    --botao-ativo: #198bb8;
+    --botao-inativo: rgba(0, 121, 168, 0.5);
+    --texto-fundo: rgb(0, 131, 238);
 }
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+.botao {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+}
+
 
